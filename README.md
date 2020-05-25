@@ -2,7 +2,7 @@
 ![](https://img.shields.io/npm/dt/react-native-progress-steps.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# react-native-progress-steps
+# react-native-kosmo-stepper
 
 A simple and fully customizable React Native component that implements a progress stepper UI. 
 * Each steps content is displayed inside of a customizable ScrollView. 
