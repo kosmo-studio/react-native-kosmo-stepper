@@ -89,9 +89,9 @@ class ProgressStep extends Component {
   render() {
     const scrollViewProps = this.props.scrollViewProps || {};
     const buttonRow = this.props.removeBtnRow ? null : (
-      <ProgressButtons 
-        renderNextButton={this.renderNextButton} 
-        renderPreviousButton={this.renderPreviousButton} 
+      <ProgressButtons styleBtnRow={this.props.styleBtnRow}
+        renderNextButton={this.renderNextButton}
+        renderPreviousButton={this.renderPreviousButton}
       />
     );
 
@@ -123,7 +123,8 @@ ProgressStep.propTypes = {
   previousBtnDisabled: PropTypes.bool,
   scrollViewProps: PropTypes.object,
   errors: PropTypes.bool,
-  removeBtnRow: PropTypes.bool
+  removeBtnRow: PropTypes.bool,
+  styleBtnRow: PropTypes.object,
 };
 
 ProgressStep.defaultProps = {
@@ -133,7 +134,8 @@ ProgressStep.defaultProps = {
   nextBtnDisabled: false,
   previousBtnDisabled: false,
   errors: false,
-  removeBtnRow: false
+  removeBtnRow: false,
+  styleBtnRow: {},
 };
 
 export default ProgressStep;

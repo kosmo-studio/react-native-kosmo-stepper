@@ -19,13 +19,13 @@ Example One             |  Example Two
 If using yarn:
 
 ```
-yarn add react-native-progress-steps
+yarn add react-native-kosmo-stepper
 ```
 
 If using npm:
 
 ```
-npm i react-native-progress-steps
+npm i react-native-kosmo-stepper
 ```
 
 ## Usage
@@ -171,6 +171,7 @@ render() {
 | scrollViewProps | Object to provide props to ScrollView component | {} | Object |
 | errors | Used to assist with current step validation. If true, the next step won't be rendered | false | Boolean |
 | removeBtnRow | Used to render the progress step without the button row | false | Boolean |
+| styleBtnRow | Used to style container row of buttons | { flexDirection: 'row', marginTop: 90 } | Object |
 
 ## Contributing
 Pull requests are always welcome! Feel free to open a new GitHub issue for any changes that can be made.
